@@ -1,0 +1,19 @@
+/* mainVisual */
+#mainVisual {
+	margin-bottom: 80px;
+	background-color: #ecebeb;
+	text-align: center;
+}
+#mainVisual img {
+	max-width: 960px;
+	height: auto;
+}
+
+/* top */
+#mainVisual .pc {
+	display: block;
+}
+
+.pc {
+	display: none;
+}

@@ -1,0 +1,34 @@
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	margin-bottom: 0;
+	border-top: none;
+}
+nav li {
+    margin-left: 50px;
+    width: 50%;
+	display: inline;
+	float: none;
+	border-bottom: none;
+	text-align: right;
+}
+nav li.contact {
+	display: inline;
+}
+nav ul li:nth-child(odd) {
+	background: none;
+}
+nav ul li a {
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+    letter-spacing: 0.1em;
+    width: 100%;
+	padding: 12px 0;
+	font-family: 'Lato', sans-serif;
+}
