@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Contact.css'
+import '../css/Contact.css';
 
 const Contact = () => {
     return (
@@ -46,7 +46,7 @@ const Contact = () => {
                         </dd>
                     </dl>
                     <p>
-                        <input type="submit" defaultValue="内容を送信する" className="wpcf7-form-control submitBtn" />
+                        <input type="submit" value="内容を送信する" className="wpcf7-form-control submitBtn" />
                     </p>
                     <div className="wpcf7-response-output wpcf7-display-none"></div>
                 </form>

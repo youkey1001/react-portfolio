@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div id="main">
-            <h2>About</h2>
-        </div>
+        <section className="contBox cf">
+            <h2 className="ttl large">About</h2>
+        </section>
     )
 }
 

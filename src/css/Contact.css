@@ -1,3 +1,18 @@
+
+#main.inner {
+	max-width: 960px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.contBox {
+	margin: 0;
+}
+
+.txtBox {
+	margin-bottom: 50px;
+}
+
 div.wpcf7 {
 	margin: 0;
 	padding: 0;
@@ -11,95 +26,45 @@ div.wpcf7 .screen-reader-response {
 	width: 1px;
 	margin: 0;
 	padding: 0;
+
+	
 	border: 0;
 }
 
-div.wpcf7-response-output {
-	margin: 2em 0.5em 1em;
-	padding: 0.2em 1em;
-	border: 2px solid #ff0000;
-}
-
-div.wpcf7-mail-sent-ok {
-	border: 2px solid #398f14;
-}
-
-div.wpcf7-mail-sent-ng,
-div.wpcf7-aborted {
-	border: 2px solid #ff0000;
-}
-
-div.wpcf7-spam-blocked {
-	border: 2px solid #ffa500;
-}
-
-div.wpcf7-validation-errors,
-div.wpcf7-acceptance-missing {
-	border: 2px solid #f7e700;
-}
-
-.wpcf7-form-control-wrap {
-	position: relative;
-}
-
-span.wpcf7-not-valid-tip {
-	color: #f00;
-	font-size: 1em;
-	font-weight: normal;
+.contactForm dt {
 	display: block;
+	margin-bottom: 3px;
+	font-size: 13px;
 }
-
-.use-floating-validation-tip span.wpcf7-not-valid-tip {
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	z-index: 100;
-	border: 1px solid #ff0000;
-	background: #fff;
-	padding: .2em .8em;
+.contactForm dt span.required {
+	margin-left: 10px;
+	padding: 1px 3px;
+	background-color: #f45555;
+	font-size: 10px;
+	color: #FFFFFF;
 }
-
-span.wpcf7-list-item {
-	display: inline-block;
-	margin: 0 0 0 1em;
+.contactForm dd {
+	margin-bottom: 15px;
 }
-
-span.wpcf7-list-item-label::before,
-span.wpcf7-list-item-label::after {
-	content: " ";
+.contactForm dd.w01 input {
+	width: 350px;
+	height: 20px;
+	font-size: 16px;
+	border: 1px solid #bbbbbb;
 }
-
-.wpcf7-display-none {
-	display: none;
+.contactForm dd.w02 textarea {
+	width: 400px;
+	font-size: 16px;
+	border: 1px solid #bbbbbb;
 }
-
-
-div.wpcf7 .ajax-loader.is-active {
-	visibility: visible;
-}
-
-div.wpcf7 div.ajax-error {
-	display: none;
-}
-
-div.wpcf7 .placeheld {
-	color: #888;
-}
-
-div.wpcf7 .wpcf7-recaptcha iframe {
-	margin-bottom: 0;
-}
-
-div.wpcf7 input[type="file"] {
+input.submitBtn {
+	width: 228px;
+	height: 54px;
+	margin-top: 20px;
 	cursor: pointer;
-}
-
-div.wpcf7 input[type="file"]:disabled {
-	cursor: default;
-}
-
-
-
-.contBox {
-	margin: 0;
+	background-color: #8e8e8e;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
 }
