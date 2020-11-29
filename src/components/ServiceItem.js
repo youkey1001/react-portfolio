@@ -1,10 +1,11 @@
 import React from 'react';
+import '../css/Service.css';
 
 const ServiceItem = props => {
-    const {ttlJP, ttlEN, icon, alt, text} = props;
+    const {ttlJP, ttlEN, icon, alt, text, isLast} = props;
 
     return (
-        <section>
+        <section className={isLast ? 'last' : ''}>
             <h3 className="ttl">{ttlJP}</h3>
             <p className="ttl">{ttlEN}</p>
             <p className="icon">

@@ -8,6 +8,7 @@ import Home from './Home';
 import '../css/Main.css';
 
 const Main = () => {
+
   return (
     <div id="main" className="inner">
         <Route exact path='/' component={Home} />

@@ -1,97 +1,56 @@
-#main h2.ttl {
+/* sevice */
+#service {
+	width: 920px;
+	margin: 0 auto 130px auto;
+	padding: 0;
+}
+#service section {
+	float: left;
+	width: 280px;
+	height: auto;
+	margin-right: 40px;
+	margin-bottom: 0;
+}
+#service section.last {
+	margin-bottom: 0;
+	margin-right: 0;
+}
+#service section .icon {
 	margin-bottom: 40px;
+	text-align: center;
+}
+#service section .icon img {
+	width: 98px;
+	height: 102px;
+}
+#main h2.ttl {
+	margin-bottom: 65px;
+	font-size: 50px;
 	text-align: center;
 	line-height: 1.0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	font-size: 40px;
 	letter-spacing: 0.05em;
-}
-
-#main.inner h2.ttl {
-	margin-bottom: 25px;
-}
-#main h3.ttl {
-	margin-bottom: 12px;
-	text-align: center;
-	line-height: 1.0;
-	font-size: 22px;
-	color: #505050;
-}
-#main p.ttl {
-	margin-bottom: 20px;
-	text-align: center;
-	line-height: 1.0;
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 13px;
-	letter-spacing: 0.1em;
-	color: #a5a5a5;
-}
-
-
-
-#main.inner {
-	max-width: 960px;
-	padding: 0;
-	margin: 0 auto;
-}
-#main h2.ttl.large {
-	margin: 0 0 70px 0;
-	font-size: 46px;
-	text-align: left;
-}
-
-#main.inner {
-	max-width: 960px;
-	padding: 0;
-	margin: 0 auto;
-}
-
-
-
-
-
-#sevice {
-    width: 920px;
-	margin: 0 auto 130px auto;
-	padding: 0;
-}
-#sevice section {
-    float: left;
-	width: 280px;
-	height: auto;
-    margin-right: 40px;
-    margin-bottom: 40px;
-}
-#sevice section.last {
-    margin-right: 0;
-    margin-bottom: 0;
-}
-#sevice section .icon {
-	margin-bottom: 40px;
-	text-align: center;
-}
-#sevice section .icon img {
-	width: 98px;
-	height: 102px;
-}
-#sevice section {
-	margin-bottom: 0;
-}
-#sevice section.last {
-	margin-bottom: 0;
-}
-#main h2.ttl {
-    margin-bottom: 65px;
-	font-size: 50px;
 }
 #main h3.ttl {
 	margin-bottom: 16px;
 	font-size: 25px;
+    text-align: center;
+    line-height: 1.0;
+    color: #505050;
 }
 #main p.ttl {
 	margin-bottom: 45px;
 	font-size: 14px;
 	letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #a5a5a5;
+}
+#main h2.ttl.large {
+	margin: 0 0 70px 0;
+	font-size: 46px;
+	text-align: left;
 }

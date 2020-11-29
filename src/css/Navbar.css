@@ -1,7 +1,3 @@
-a:hover {
-	text-decoration: underline;
-}
-
 nav {
 	position: absolute;
 	bottom: 30px;
@@ -31,4 +27,13 @@ nav ul li a {
     width: 100%;
 	padding: 12px 0;
 	font-family: 'Lato', sans-serif;
+}
+nav#about li.about a,
+nav#works li.works a,
+nav#blog li.blog a,
+nav#contact li.contact a {
+	opacity: 0.3;
+}
+a:hover {
+	text-decoration: underline;
 }
