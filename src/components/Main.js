@@ -9,7 +9,7 @@ import '../css/Main.css';
 
 const Main = () => {
   return (
-    <div id="main">
+    <div id="main" className="inner">
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
         <Route path='/works' component={Works} />
