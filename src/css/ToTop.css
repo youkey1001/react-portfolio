@@ -1,0 +1,14 @@
+.toTop {
+    text-align: center;
+}
+
+.toTop a {
+    display: block;
+    margin-bottom: 40px;
+    padding: 8px 20px;
+}
+
+.toTop img {
+    width: 22px;
+    height: 14px;
+}
